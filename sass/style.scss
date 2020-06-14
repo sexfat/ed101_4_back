@@ -16,3 +16,31 @@ background-color: #fff;
 .c-sidebar .c-sidebar-minimizer {
     background-color: #28569A;
 }
+
+
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+  color: #000;
+  background: #ffffff;
+  position: relative;
+  left: 20px;
+  border-radius: 25px 0px 0 25px;
+  &::after {
+    content: '';
+    background-image: url('../img/Path76.png');
+    position: relative;
+    top: 35px;
+    width: 37px;
+    height: 22px;
+    right: 2px;
+    flex: initial;
+  }
+  &::before {
+    content: '';
+    background-image: url('../img/Path75.png');
+    position: relative;
+    top: -36px;
+    width: 37px;
+    height: 22px;
+    right: -185px;
+  }
+}
